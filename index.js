@@ -1,7 +1,10 @@
- // Discord version 13 and above uses Node.js 16+
+// Discord version 13 and above uses Node.js 16+
 // IDE needs to be update
 // Otherwise use version "^12.5.3"
 
+// Replit section start
+// This code is required for you to use the Discord bot in Replit.
+// Be sure to download the express package and the discord.js package.
 const express = require("express")
 const app = express()
 
@@ -12,6 +15,7 @@ app.get("/", (req, res) => {
 app.listen(3000, () => {
   console.log("Athena has arrived!")
 })
+//  Replit section end
 
 // Copied code from glitch.com
 
