@@ -34,4 +34,5 @@ client.on("message", message => {
   }
 })
 
-client.login("REPLACE THIS WITH YOUR DISCORD TOKEN")
+// Set up your env!
+client.login(process.env.token)
