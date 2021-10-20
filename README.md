@@ -5,7 +5,7 @@ Replace the name in the package.json file, and edit the index.js in any way you 
 
 # Important
 
-Be sure to put in your discord token in the index.js file, it is laballed at the bottom of the file.
+Be sure to put in your discord token in the index.js file, it is laballed at the bottom of the file. HOWEVER, make sure that you use env, essentially so that your token is a secret!
 
 Credits:
 
